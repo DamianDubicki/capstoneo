@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,16 +13,17 @@
         </div>
         <button class="button" id="uploadButton">Upload</button>
         <input type="file" id="imageInput" accept="image/*" style="display: none;">
-        <img id="selectedImage" class="image" style="display: none;">
+        <img id="selectedImage" class="image">
         <div id="loading" class="loading" style="display: none;">Loading...</div>
-        <div id="prediction" class="prediction" style="display: none;">
+        <div id="prediction" class="prediction">
             <p class="predictionText" id="artwork"></p>
             <p class="predictionText" id="artist"></p>
             <p class="predictionText" id="date"></p>
             <p class="predictionText" id="style"></p>
         </div>
-        
     </div>
     <script src="/static/js/javascript.js"></script>
 </body>
 </html>
+
+
